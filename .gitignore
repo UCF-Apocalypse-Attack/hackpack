@@ -1,0 +1,6 @@
+/build/
+*.aux
+*.log
+*.gch
+a.out
+header.tmp
