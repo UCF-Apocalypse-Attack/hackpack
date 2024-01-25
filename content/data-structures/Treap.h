@@ -15,17 +15,20 @@ struct Node {
 	int val, y, c = 1;
 	Node(int val) : val(val), y(rand()) {}
 	void recalc();
+	void push();
 };
 
 int cnt(Node* n) { return n ? n->c : 0; }
 void Node::recalc() { c = cnt(l) + cnt(r) + 1; }
+void Node::push() {}
 
 template<class F> void each(Node* n, F f) {
-	if (n) { each(n->l, f); f(n->val); each(n->r, f); }
+	if (n) { n->push(); each(n->l, f); f(n->val); each(n->r, f); }
 }
 
 pair<Node*, Node*> split(Node* n, int k) {
 	if (!n) return {};
+	n->push();
 	if (cnt(n->l) >= k) { // "n->val >= k" for lower_bound(k)
 		auto pa = split(n->l, k);
 		n->l = pa.second;
@@ -42,6 +45,7 @@ pair<Node*, Node*> split(Node* n, int k) {
 Node* merge(Node* l, Node* r) {
 	if (!l) return r;
 	if (!r) return l;
+	l->push(), r->push();
 	if (l->y > r->y) {
 		l->r = merge(l->r, r);
 		l->recalc();
