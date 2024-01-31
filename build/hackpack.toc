@@ -1,39 +1,72 @@
 \contentsline {chapter}{\numberline {1}Contest}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Data structures}{2}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Geometry}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Lines and Segments}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Polygons}{5}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Circles}{6}{section.3.3}%
-\contentsline {section}{\numberline {3.4}3D Geometry}{7}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Miscellaneous}{7}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Graphs}{9}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Fundamentals}{9}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Network flow}{9}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Matching}{10}{section.4.3}%
-\contentsline {section}{\numberline {4.4}DFS algorithms}{11}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Coloring}{12}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Heuristics}{12}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Trees}{13}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Math}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Modular arithmetic}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Primality}{15}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Divisibility}{16}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Bézout's identity}{16}{subsection.5.3.1}%
-\contentsline {section}{\numberline {5.4}Fractions}{16}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Pythagorean Triples}{16}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Primes}{16}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Estimates}{16}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Mobius Function}{16}{section.5.8}%
-\contentsline {chapter}{\numberline {6}Numerical Methods}{17}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Polynomials and recurrences}{17}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Optimization}{17}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Matrices}{18}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Fourier transforms}{20}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Strings}{21}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Geometry}{23}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Geometric primitives}{23}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Circles}{24}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Polygons}{24}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Misc. Point Set Problems}{25}{section.8.4}%
-\contentsline {section}{\numberline {8.5}3D}{26}{section.8.5}%
+\contentsline {chapter}{\numberline {2}Mathematics}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Equations}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Recurrences}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Trigonometry}{2}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Geometry}{2}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Triangles}{2}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Spherical coordinates}{2}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Derivatives/Integrals}{2}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Sums}{2}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Series}{2}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Probability theory}{2}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Discrete distributions}{2}{subsection.2.8.1}%
+\contentsline {subsubsection}{Binomial distribution}{2}{section*.1}%
+\contentsline {subsubsection}{First success distribution}{3}{section*.2}%
+\contentsline {subsubsection}{Poisson distribution}{3}{section*.3}%
+\contentsline {subsection}{\numberline {2.8.2}Continuous distributions}{3}{subsection.2.8.2}%
+\contentsline {subsubsection}{Uniform distribution}{3}{section*.4}%
+\contentsline {subsubsection}{Exponential distribution}{3}{section*.5}%
+\contentsline {subsubsection}{Normal distribution}{3}{section*.6}%
+\contentsline {section}{\numberline {2.9}Markov chains}{3}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Quadrilaterals}{3}{subsection.2.9.1}%
+\contentsline {chapter}{\numberline {3}Data structures}{4}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Geometry}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Lines and Segments}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Polygons}{7}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Circles}{8}{section.4.3}%
+\contentsline {section}{\numberline {4.4}3D Geometry}{9}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Miscellaneous}{9}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Graphs}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Fundamentals}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Network flow}{11}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Matching}{12}{section.5.3}%
+\contentsline {section}{\numberline {5.4}DFS algorithms}{13}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Coloring}{14}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Heuristics}{15}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Trees}{15}{section.5.7}%
+\contentsline {chapter}{\numberline {6}Numerical Methods}{18}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Polynomials and recurrences}{18}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Optimization}{18}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Matrices}{19}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Fourier transforms}{21}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Number theory}{22}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Modular arithmetic}{22}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Primality}{22}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Divisibility}{23}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Bézout's identity}{23}{subsection.7.3.1}%
+\contentsline {section}{\numberline {7.4}Fractions}{23}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Pythagorean Triples}{23}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Primes}{23}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Estimates}{23}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Mobius Function}{23}{section.7.8}%
+\contentsline {chapter}{\numberline {8}Combinatorial}{24}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Permutations}{24}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Factorial}{24}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Cycles}{24}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Derangements}{24}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Burnside's lemma}{24}{subsection.8.1.4}%
+\contentsline {section}{\numberline {8.2}Partitions and subsets}{24}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Partition function}{24}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Lucas' Theorem}{24}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Binomials}{24}{subsection.8.2.3}%
+\contentsline {section}{\numberline {8.3}General purpose numbers}{24}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Bernoulli numbers}{24}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Stirling numbers of the first kind}{24}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}Eulerian numbers}{24}{subsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.3.4}Stirling numbers of the second kind}{24}{subsection.8.3.4}%
+\contentsline {subsection}{\numberline {8.3.5}Bell numbers}{24}{subsection.8.3.5}%
+\contentsline {subsection}{\numberline {8.3.6}Labeled unrooted trees}{24}{subsection.8.3.6}%
+\contentsline {subsection}{\numberline {8.3.7}Catalan numbers}{24}{subsection.8.3.7}%
+\contentsline {chapter}{\numberline {9}Strings}{25}{chapter.9}%
 \contentsfinish 
