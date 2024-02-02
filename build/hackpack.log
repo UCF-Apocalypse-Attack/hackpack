@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.10)  25 OCT 2023 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.10)  2 FEB 2024 16:06
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -549,7 +549,7 @@ runsystem(rm -f build/header.tmp)...executed.
 
 
 pdfTeX warning: pdflatex (file content/tex/radiation.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<radiation.pdf, id=40, 596.8103pt x 596.8103pt>
+<radiation.pdf, id=44, 596.8103pt x 596.8103pt>
 File: radiation.pdf Graphic file (type pdf)
 <use radiation.pdf>
 Package pdftex.def Info: radiation.pdf  used on input line 12.
@@ -618,7 +618,7 @@ l.21 	\newpage
 
 ] (./content/math/chapter.tex
 Chapter 2.
-<content/math/sphericalCoordinates.pdf, id=158, 42.67899pt x 42.67899pt>
+<content/math/sphericalCoordinates.pdf, id=163, 42.67899pt x 42.67899pt>
 File: content/math/sphericalCoordinates.pdf Graphic file (type pdf)
 <use content/math/sphericalCoordinates.pdf>
 Package pdftex.def Info: content/math/sphericalCoordinates.pdf  used on input line 58.
@@ -918,8 +918,13 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/graphs/MinCostMaxFlow.h" -o build/kactl.tmp )...executed.
 
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/MinCostMaxFlowDijkstra.h" -o build/kactl.tmp )...executed.
+
  (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "|MinCostMaxFlow.h" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "MinCostMaxFlowDijkstra.h|MinCostMaxFlowDijkstra.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [11])
 runsystem(rm -f build/kactl.tmp)...executed.
@@ -1065,6 +1070,9 @@ runsystem(rm -f build/kactl.tmp)...executed.
 runsystem(python3 content/tex/preprocessor.py -i "content/graphs/DirectedMST.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
+runsystem(python3 content/tex/preprocessor.py --print-header "DirectedMST.h|DirectedMST.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [16]
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/graphs/CentroidDecomp.h" -o build/kactl.tmp )...executed.
@@ -1074,9 +1082,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
 \OT1/pcr/m/n/7 all nodes with isIn[i] = 1 connected to root are part of root's
  []
 
-runsystem(python3 content/tex/preprocessor.py --print-header "DirectedMST.h|CentroidDecomp.h" -o build/header2.tmp)...executed.
-
-(./build/header2.tmp) [16]))
+))
 runsystem(python3 content/tex/preprocessor.py --print-header "|CentroidDecomp.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [17] (./content/numerical/chapter.tex
@@ -1378,11 +1384,7 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/Hashing.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp
-LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 14.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pcr.fd
-File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-))
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/AhoCorasick.h" -o build/kactl.tmp )...executed.
@@ -1392,10 +1394,99 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/strings/AhoCorasick-Tyler.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp))
+ (./build/kactl.tmp
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 15.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)))
 runsystem(python3 content/tex/preprocessor.py --print-header "AhoCorasick-Tyler.h|AhoCorasick-Tyler.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [26]
+runsystem(python3 content/tex/preprocessor.py --print-header "|AhoCorasick-Tyler.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [27] (./content/various/chapter.tex
+Chapter 10.
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/IntervalContainer.h" -o build/kactl.tmp )...executed.
+
+(./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/IntervalCover.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/ConstantIntervals.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+\OT1/cmr/bx/n/7 Usage: \OT1/pcr/m/n/7 constantIntervals(0, sz(v), [&](int x)\OMS/cmsy/m/n/7 f\OT1/pcr/m/n/7 return v[x];\OMS/cmsy/m/n/7 g\OT1/pcr/m/n/7 ,
+ []
+
+)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/TernarySearch.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/LIS.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/FastKnapsack.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/KnuthDP.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/DivideAndConquerDP.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(python3 content/tex/preprocessor.py --print-header "DivideAndConquerDP.h|DivideAndConquerDP.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [28]
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/FastMod.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/FastInput.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/BumpAllocator.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/SmallPtr.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/BumpAllocatorSTL.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/various/SIMD.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp))
+runsystem(python3 content/tex/preprocessor.py --print-header "|SIMD.h" -o build/header2.tmp)...executed.
+
+ (./build/header2.tmp) [29]
 \tf@ptc=\write5
 \openout5 = `hackpack.ptc'.
 
@@ -1405,27 +1496,27 @@ runsystem(rm -f build/header2.tmp)...executed.
 
 runsystem(rm -f build/kactl.tmp)...executed.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
  (build//hackpack.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `hackpack.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 16706 strings out of 482657
- 241214 string characters out of 5957838
- 1371982 words of memory out of 5000000
- 27821 multiletter control sequences out of 15000+600000
- 547579 words of font info for 81 fonts, out of 8000000 for 9000
+ 17118 strings out of 482657
+ 247705 string characters out of 5957838
+ 1371034 words of memory out of 5000000
+ 27941 multiletter control sequences out of 15000+600000
+ 548094 words of font info for 83 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  44i,16n,64p,1274b,2183s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tmarks39/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/tmarks39/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti0700.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on build//hackpack.pdf (27 pages, 909238 bytes).
+Output written on build//hackpack.pdf (30 pages, 934135 bytes).
 PDF statistics:
- 4456 PDF objects out of 5155 (max. 8388607)
- 4295 compressed objects within 43 object streams
- 3309 named destinations out of 3580 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4775 PDF objects out of 5155 (max. 8388607)
+ 4607 compressed objects within 47 object streams
+ 3561 named destinations out of 3580 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

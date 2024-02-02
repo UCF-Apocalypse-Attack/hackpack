@@ -91,37 +91,38 @@
 \contentsline {section}{\numberline {5.2}Network flow}{11}{section.5.2}%
 \contentsline {subsection}{\texttt {PushRelabel.h}\hspace {0.2em}}{11}{section.5.2}%
 \contentsline {subsection}{\texttt {MinCostMaxFlow.h}\hspace {0.2em}}{11}{lstnumber.5.4.48}%
-\contentsline {subsection}{\texttt {EdmondsKarp.h}\hspace {0.2em}}{12}{lstnumber.5.5.81}%
-\contentsline {subsection}{\texttt {Dinic.h}\hspace {0.2em}}{12}{lstnumber.5.6.35}%
-\contentsline {subsection}{\texttt {MinCut.h}\hspace {0.2em}}{12}{lstnumber.5.7.42}%
-\contentsline {subsection}{\texttt {GlobalMinCut.h}\hspace {0.2em}}{12}{lstnumber.5.8.1}%
-\contentsline {subsection}{\texttt {GomoryHu.h}\hspace {0.2em}}{12}{lstnumber.5.9.21}%
+\contentsline {subsection}{\texttt {MinCostMaxFlowDijkstra.h}\hspace {0.2em}}{11}{lstnumber.5.5.56}%
+\contentsline {subsection}{\texttt {EdmondsKarp.h}\hspace {0.2em}}{12}{lstnumber.5.6.24}%
+\contentsline {subsection}{\texttt {Dinic.h}\hspace {0.2em}}{12}{lstnumber.5.7.35}%
+\contentsline {subsection}{\texttt {MinCut.h}\hspace {0.2em}}{12}{lstnumber.5.8.42}%
+\contentsline {subsection}{\texttt {GlobalMinCut.h}\hspace {0.2em}}{12}{lstnumber.5.9.1}%
+\contentsline {subsection}{\texttt {GomoryHu.h}\hspace {0.2em}}{12}{lstnumber.5.10.21}%
 \contentsline {section}{\numberline {5.3}Matching}{12}{section.5.3}%
 \contentsline {subsection}{\texttt {hopcroftKarp.h}\hspace {0.2em}}{12}{section.5.3}%
-\contentsline {subsection}{\texttt {DFSMatching.h}\hspace {0.2em}}{13}{lstnumber.5.11.42}%
-\contentsline {subsection}{\texttt {MinimumVertexCover.h}\hspace {0.2em}}{13}{lstnumber.5.12.22}%
-\contentsline {subsection}{\texttt {WeightedMatching.h}\hspace {0.2em}}{13}{lstnumber.5.13.20}%
-\contentsline {subsection}{\texttt {GeneralMatching.h}\hspace {0.2em}}{13}{lstnumber.5.14.31}%
+\contentsline {subsection}{\texttt {DFSMatching.h}\hspace {0.2em}}{13}{lstnumber.5.12.42}%
+\contentsline {subsection}{\texttt {MinimumVertexCover.h}\hspace {0.2em}}{13}{lstnumber.5.13.22}%
+\contentsline {subsection}{\texttt {WeightedMatching.h}\hspace {0.2em}}{13}{lstnumber.5.14.20}%
+\contentsline {subsection}{\texttt {GeneralMatching.h}\hspace {0.2em}}{13}{lstnumber.5.15.31}%
 \contentsline {section}{\numberline {5.4}DFS algorithms}{13}{section.5.4}%
 \contentsline {subsection}{\texttt {SCC.h}\hspace {0.2em}}{13}{section.5.4}%
-\contentsline {subsection}{\texttt {BiconnectedComponents.h}\hspace {0.2em}}{13}{lstnumber.5.16.24}%
-\contentsline {subsection}{\texttt {2sat.h}\hspace {0.2em}}{14}{lstnumber.5.17.33}%
-\contentsline {subsection}{\texttt {EulerWalk.h}\hspace {0.2em}}{14}{lstnumber.5.18.56}%
-\contentsline {subsection}{\texttt {DominatorTree.h}\hspace {0.2em}}{14}{lstnumber.5.19.15}%
+\contentsline {subsection}{\texttt {BiconnectedComponents.h}\hspace {0.2em}}{13}{lstnumber.5.17.24}%
+\contentsline {subsection}{\texttt {2sat.h}\hspace {0.2em}}{14}{lstnumber.5.18.33}%
+\contentsline {subsection}{\texttt {EulerWalk.h}\hspace {0.2em}}{14}{lstnumber.5.19.56}%
+\contentsline {subsection}{\texttt {DominatorTree.h}\hspace {0.2em}}{14}{lstnumber.5.20.15}%
 \contentsline {section}{\numberline {5.5}Coloring}{14}{section.5.5}%
 \contentsline {subsection}{\texttt {EdgeColoring.h}\hspace {0.2em}}{14}{section.5.5}%
 \contentsline {section}{\numberline {5.6}Heuristics}{15}{section.5.6}%
 \contentsline {subsection}{\texttt {MaximalCliques.h}\hspace {0.2em}}{15}{section.5.6}%
-\contentsline {subsection}{\texttt {MaximumClique.h}\hspace {0.2em}}{15}{lstnumber.5.22.12}%
-\contentsline {subsection}{\texttt {MaximumIndependentSet.h}\hspace {0.2em}}{15}{lstnumber.5.23.49}%
+\contentsline {subsection}{\texttt {MaximumClique.h}\hspace {0.2em}}{15}{lstnumber.5.23.12}%
+\contentsline {subsection}{\texttt {MaximumIndependentSet.h}\hspace {0.2em}}{15}{lstnumber.5.24.49}%
 \contentsline {section}{\numberline {5.7}Trees}{15}{section.5.7}%
 \contentsline {subsection}{\texttt {BinaryLifting.h}\hspace {0.2em}}{15}{section.5.7}%
-\contentsline {subsection}{\texttt {LCA.h}\hspace {0.2em}}{15}{lstnumber.5.25.25}%
-\contentsline {subsection}{\texttt {CompressTree.h}\hspace {0.2em}}{15}{lstnumber.5.26.21}%
-\contentsline {subsection}{\texttt {HLD.h}\hspace {0.2em}}{15}{lstnumber.5.27.21}%
-\contentsline {subsection}{\texttt {LinkCutTree.h}\hspace {0.2em}}{16}{lstnumber.5.28.46}%
-\contentsline {subsection}{\texttt {DirectedMST.h}\hspace {0.2em}}{16}{lstnumber.5.29.90}%
-\contentsline {subsection}{\texttt {CentroidDecomp.h}\hspace {0.2em}}{17}{lstnumber.5.30.60}%
+\contentsline {subsection}{\texttt {LCA.h}\hspace {0.2em}}{15}{lstnumber.5.26.25}%
+\contentsline {subsection}{\texttt {CompressTree.h}\hspace {0.2em}}{15}{lstnumber.5.27.21}%
+\contentsline {subsection}{\texttt {HLD.h}\hspace {0.2em}}{15}{lstnumber.5.28.21}%
+\contentsline {subsection}{\texttt {LinkCutTree.h}\hspace {0.2em}}{16}{lstnumber.5.29.46}%
+\contentsline {subsection}{\texttt {DirectedMST.h}\hspace {0.2em}}{16}{lstnumber.5.30.90}%
+\contentsline {subsection}{\texttt {CentroidDecomp.h}\hspace {0.2em}}{17}{lstnumber.5.31.60}%
 \contentsline {chapter}{\numberline {6}Numerical Methods}{18}{chapter.6}%
 \ttl@stoptoc {chapters@5}
 \ttl@starttoc {chapters@6}
@@ -213,11 +214,35 @@
 \contentsline {section}{\texttt {Zfunc.h}\hspace {0.2em}}{25}{lstnumber.9.1.16}%
 \contentsline {section}{\texttt {Manacher.h}\hspace {0.2em}}{25}{lstnumber.9.2.12}%
 \contentsline {section}{\texttt {Eertree.h}\hspace {0.2em}}{25}{lstnumber.9.3.13}%
-\contentsline {section}{\texttt {MinRotation.h}\hspace {0.2em}}{25}{lstnumber.9.4.20}%
+\contentsline {section}{\texttt {MinRotation.h}\hspace {0.2em}}{25}{lstnumber.9.4.24}%
 \contentsline {section}{\texttt {SuffixArray.h}\hspace {0.2em}}{25}{lstnumber.9.5.8}%
 \contentsline {section}{\texttt {SuffixAutomaton.h}\hspace {0.2em}}{25}{lstnumber.9.6.23}%
 \contentsline {section}{\texttt {SuffixTree.h}\hspace {0.2em}}{25}{lstnumber.9.7.22}%
 \contentsline {section}{\texttt {Hashing.h}\hspace {0.2em}}{26}{lstnumber.9.8.50}%
 \contentsline {section}{\texttt {AhoCorasick.h}\hspace {0.2em}}{26}{lstnumber.9.9.44}%
 \contentsline {section}{\texttt {AhoCorasick-Tyler.h}\hspace {0.2em}}{26}{lstnumber.9.10.66}%
+\contentsline {chapter}{\numberline {10}Various}{28}{chapter.10}%
+\ttl@stoptoc {chapters@9}
+\ttl@starttoc {chapters@10}
+\contentsline {section}{\numberline {10.1}Intervals}{28}{section.10.1}%
+\contentsline {subsection}{\texttt {IntervalContainer.h}\hspace {0.2em}}{28}{section.10.1}%
+\contentsline {subsection}{\texttt {IntervalCover.h}\hspace {0.2em}}{28}{lstnumber.10.1.23}%
+\contentsline {subsection}{\texttt {ConstantIntervals.h}\hspace {0.2em}}{28}{lstnumber.10.2.19}%
+\contentsline {section}{\numberline {10.2}Misc. algorithms}{28}{section.10.2}%
+\contentsline {subsection}{\texttt {TernarySearch.h}\hspace {0.2em}}{28}{section.10.2}%
+\contentsline {subsection}{\texttt {LIS.h}\hspace {0.2em}}{28}{lstnumber.10.4.11}%
+\contentsline {subsection}{\texttt {FastKnapsack.h}\hspace {0.2em}}{28}{lstnumber.10.5.17}%
+\contentsline {section}{\numberline {10.3}Dynamic programming}{28}{section.10.3}%
+\contentsline {subsection}{\texttt {KnuthDP.h}\hspace {0.2em}}{28}{section.10.3}%
+\contentsline {subsection}{\texttt {DivideAndConquerDP.h}\hspace {0.2em}}{28}{lstnumber.10.7.1}%
+\contentsline {section}{\numberline {10.4}Debugging tricks}{28}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Optimization tricks}{29}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Bit hacks}{29}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}Pragmas}{29}{subsection.10.5.2}%
+\contentsline {subsection}{\texttt {FastMod.h}\hspace {0.2em}}{29}{subsection.10.5.2}%
+\contentsline {subsection}{\texttt {FastInput.h}\hspace {0.2em}}{29}{lstnumber.10.9.8}%
+\contentsline {subsection}{\texttt {BumpAllocator.h}\hspace {0.2em}}{29}{lstnumber.10.10.17}%
+\contentsline {subsection}{\texttt {SmallPtr.h}\hspace {0.2em}}{29}{lstnumber.10.11.8}%
+\contentsline {subsection}{\texttt {BumpAllocatorSTL.h}\hspace {0.2em}}{29}{lstnumber.10.12.10}%
+\contentsline {subsection}{\texttt {SIMD.h}\hspace {0.2em}}{29}{lstnumber.10.13.14}%
 \contentsfinish 

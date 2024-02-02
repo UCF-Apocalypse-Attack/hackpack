@@ -69,4 +69,12 @@
 \contentsline {subsection}{\numberline {8.3.6}Labeled unrooted trees}{24}{subsection.8.3.6}%
 \contentsline {subsection}{\numberline {8.3.7}Catalan numbers}{24}{subsection.8.3.7}%
 \contentsline {chapter}{\numberline {9}Strings}{25}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Various}{28}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Intervals}{28}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Misc. algorithms}{28}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Dynamic programming}{28}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Debugging tricks}{28}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Optimization tricks}{29}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Bit hacks}{29}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}Pragmas}{29}{subsection.10.5.2}%
 \contentsfinish 
