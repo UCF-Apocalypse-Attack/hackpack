@@ -1,9 +1,10 @@
 {
     "files.eol": "\n",
     "files.associations": {
-        "iostream": "cpp",
-        "vector": "cpp"
-    },
+		"iostream": "cpp",
+		"vector": "cpp",
+		"ranges": "cpp"
+	},
     "editor.insertSpaces": false,
     "editor.detectIndentation": false
 }

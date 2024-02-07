@@ -118,11 +118,11 @@
 \contentsline {section}{\numberline {5.7}Trees}{15}{section.5.7}%
 \contentsline {subsection}{\texttt {BinaryLifting.h}\hspace {0.2em}}{15}{section.5.7}%
 \contentsline {subsection}{\texttt {LCA.h}\hspace {0.2em}}{15}{lstnumber.5.26.25}%
-\contentsline {subsection}{\texttt {CompressTree.h}\hspace {0.2em}}{15}{lstnumber.5.27.21}%
-\contentsline {subsection}{\texttt {HLD.h}\hspace {0.2em}}{15}{lstnumber.5.28.21}%
-\contentsline {subsection}{\texttt {LinkCutTree.h}\hspace {0.2em}}{16}{lstnumber.5.29.46}%
-\contentsline {subsection}{\texttt {DirectedMST.h}\hspace {0.2em}}{16}{lstnumber.5.30.90}%
-\contentsline {subsection}{\texttt {CentroidDecomp.h}\hspace {0.2em}}{17}{lstnumber.5.31.60}%
+\contentsline {subsection}{\texttt {CentroidDecomp.h}\hspace {0.2em}}{15}{lstnumber.5.27.21}%
+\contentsline {subsection}{\texttt {CompressTree.h}\hspace {0.2em}}{16}{lstnumber.5.28.32}%
+\contentsline {subsection}{\texttt {HLD.h}\hspace {0.2em}}{16}{lstnumber.5.29.21}%
+\contentsline {subsection}{\texttt {LinkCutTree.h}\hspace {0.2em}}{16}{lstnumber.5.30.46}%
+\contentsline {subsection}{\texttt {DirectedMST.h}\hspace {0.2em}}{16}{lstnumber.5.31.90}%
 \contentsline {chapter}{\numberline {6}Numerical Methods}{18}{chapter.6}%
 \ttl@stoptoc {chapters@5}
 \ttl@starttoc {chapters@6}
