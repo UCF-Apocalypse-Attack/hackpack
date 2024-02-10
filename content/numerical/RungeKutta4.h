@@ -1,7 +1,7 @@
 /**
  * Author: Tyler Marks
  * Description: Numerically approximates the solution to a system of Differential Equations
- * Status: Stress-tested and tested on kattis:polygonarea
+ * Status: Tested on 2020 Northern Eurasia: Hit the Hay
  */
 #pragma once
 
