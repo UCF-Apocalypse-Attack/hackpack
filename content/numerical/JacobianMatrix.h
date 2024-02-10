@@ -16,7 +16,7 @@ vector<vector<T>> makeJacobian(F &f, vector<T> &x) {
         rep(j, 0, n){
             J[j][i] = (fX1[j] - fX0[j]) / eps;
         }
-		x[i] -= eps;
+	x[i] -= eps;
     }
     return J;
 }
