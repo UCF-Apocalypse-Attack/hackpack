@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.7.10)  2 FEB 2024 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.2.7)  7 FEB 2024 16:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1049,17 +1049,22 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <7> not available
 )
 runsystem(rm -f build/kactl.tmp)...executed.
 
-runsystem(python3 content/tex/preprocessor.py -i "content/graphs/CompressTree.h" -o build/kactl.tmp )...executed.
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/CentroidDecomp.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
-runsystem(python3 content/tex/preprocessor.py -i "content/graphs/HLD.h" -o build/kactl.tmp )...executed.
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/CompressTree.h" -o build/kactl.tmp )...executed.
 
  (./build/kactl.tmp
-runsystem(python3 content/tex/preprocessor.py --print-header "HLD.h|HLD.h" -o build/header2.tmp)...executed.
+runsystem(python3 content/tex/preprocessor.py --print-header "CentroidDecomp.h|CompressTree.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [15])
+runsystem(rm -f build/kactl.tmp)...executed.
+
+runsystem(python3 content/tex/preprocessor.py -i "content/graphs/HLD.h" -o build/kactl.tmp )...executed.
+
+ (./build/kactl.tmp)
 runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/graphs/LinkCutTree.h" -o build/kactl.tmp )...executed.
@@ -1069,21 +1074,11 @@ runsystem(rm -f build/kactl.tmp)...executed.
 
 runsystem(python3 content/tex/preprocessor.py -i "content/graphs/DirectedMST.h" -o build/kactl.tmp )...executed.
 
- (./build/kactl.tmp)
+ (./build/kactl.tmp
 runsystem(python3 content/tex/preprocessor.py --print-header "DirectedMST.h|DirectedMST.h" -o build/header2.tmp)...executed.
 
- (./build/header2.tmp) [16]
-runsystem(rm -f build/kactl.tmp)...executed.
-
-runsystem(python3 content/tex/preprocessor.py -i "content/graphs/CentroidDecomp.h" -o build/kactl.tmp )...executed.
-
- (./build/kactl.tmp
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\OT1/pcr/m/n/7 all nodes with isIn[i] = 1 connected to root are part of root's
- []
-
-))
-runsystem(python3 content/tex/preprocessor.py --print-header "|CentroidDecomp.h" -o build/header2.tmp)...executed.
+ (./build/header2.tmp) [16]))
+runsystem(python3 content/tex/preprocessor.py --print-header "|DirectedMST.h" -o build/header2.tmp)...executed.
 
  (./build/header2.tmp) [17] (./content/numerical/chapter.tex
 Chapter 6.
@@ -1505,18 +1500,18 @@ Package rerunfilecheck Info: File `hackpack.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 17104 strings out of 482657
- 247477 string characters out of 5957838
- 1371034 words of memory out of 5000000
- 27941 multiletter control sequences out of 15000+600000
+ 17131 strings out of 483183
+ 247858 string characters out of 5966293
+ 1370130 words of memory out of 5000000
+ 27942 multiletter control sequences out of 15000+600000
  548094 words of font info for 83 fonts, out of 8000000 for 9000
- 430 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  44i,16n,64p,1274b,2183s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/tmarks39/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/tmarks39/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti0700.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on build//hackpack.pdf (30 pages, 933877 bytes).
+ </home/xylenox/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/xylenox/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti0700.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on build//hackpack.pdf (30 pages, 934228 bytes).
 PDF statistics:
- 4758 PDF objects out of 5155 (max. 8388607)
- 4591 compressed objects within 46 object streams
- 3547 named destinations out of 3580 (max. 500000)
+ 4774 PDF objects out of 5155 (max. 8388607)
+ 4606 compressed objects within 47 object streams
+ 3560 named destinations out of 3580 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
