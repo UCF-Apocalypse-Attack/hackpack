@@ -1,8 +1,8 @@
 /**
- * Author: Luke Videckis
+ * Author: Cameron Custer
  * Date: 2024-01-08
  * License: CC0
- * Source: https://github.com/lrvideckis/programming_team_code/
+ * Source: https://github.com/programming-team-code/programming_team_code/
  * Description: Calls callback function on undirected forest for each centroid
  * Usage: centroid(adj, [\&](const vector<vector<int>>\& adj, int cent) { \ldots\ });
  * Time: $O(n \log n)$
