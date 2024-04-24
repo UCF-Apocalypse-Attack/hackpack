@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@v4
         with: 
           ref: ${{ github.head_ref}}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Install LaTeX
         run: |
           sudo apt-get update
