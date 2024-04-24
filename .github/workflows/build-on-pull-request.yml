@@ -6,6 +6,7 @@ permissions:
   pull-requests: write
 jobs:
   build_and_deploy:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
