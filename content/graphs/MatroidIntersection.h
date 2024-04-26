@@ -5,10 +5,10 @@
  * Source: https://codeforces.com/blog/entry/69287
  * Description: Given two matroids, finds the largest common independent set.
  * For the color and graph matroids, this would be the largest forest where no
- * two edges are the same color. A matroid has 3 functions
- *  $\newline$- check(int x): returns if current matroid can add x without becoming dependent
- *  $\newline$- add(int x): adds an element to the matroid (guaranteed to never make it dependent)
- *  $\newline$- clear(): sets the matroid to the empty matroid
+ * two edges are the same color. A matroid has 3 functions$\newline$
+ *  - check(int x): returns if current matroid can add x without becoming dependent$\newline$
+ *  - add(int x): adds an element to the matroid (guaranteed to never make it dependent)$\newline$
+ *  - clear(): sets the matroid to the empty matroid$\newline$
  * The matroid is given an int representing the element, and is expected to
  * convert it (e.g: the color or the endpoints)
  * Pass the matroid with more expensive add/clear operations to M1.
