@@ -6,13 +6,13 @@
  * Description: Given two matroids, finds the largest common independent set.
  * For the color and graph matroids, this would be the largest forest where no
  * two edges are the same color. A matroid has 3 functions
- *  - check(int x): returns if current matroid can add x without becoming dependent
- *  - add(int x): adds an element to the matroid (guaranteed to never make it dependent)
- *  - clear(): sets the matroid to the empty matroid
+ *  $\newline$- check(int x): returns if current matroid can add x without becoming dependent
+ *  $\newline$- add(int x): adds an element to the matroid (guaranteed to never make it dependent)
+ *  $\newline$- clear(): sets the matroid to the empty matroid
  * The matroid is given an int representing the element, and is expected to
  * convert it (e.g: the color or the endpoints)
  * Pass the matroid with more expensive add/clear operations to M1.
- * Time: R^2N(M2.add + M1.check + M2.check) + R^3 M1.add + R^2 M1.clear + RN M2.clear
+ * Time: $R^2N(M2.add + M1.check + M2.check) + R^3 M1.add + R^2 M1.clear + RN M2.clear$
  * Status: Tested on SWERC 2011D, Pick Your Own Nim
  */
 #pragma once

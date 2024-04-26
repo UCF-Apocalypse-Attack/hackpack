@@ -27,7 +27,7 @@ hackpack: test-session.pdf | build
 	cp build/hackpack.pdf hackpack.pdf
 
 clean:
-	cd build && rm -f kactl.aux kactl.log kactl.tmp kactl.toc hackpack.pdf kactl.ptc
+	cd build && rm -f hackpack.aux hackpack.log hackpack.tmp hackpack.toc hackpack.pdf hackpack.ptc
 
 veryclean: clean
 	rm -f hackpack.pdf test-session.pdf
