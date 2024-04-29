@@ -3,7 +3,12 @@
     "files.associations": {
 		"iostream": "cpp",
 		"vector": "cpp",
-		"ranges": "cpp"
+		"ranges": "cpp",
+		"climits": "cpp",
+		"complex": "cpp",
+		"cmath": "cpp",
+		"bitset": "cpp",
+		"random": "cpp"
 	},
     "editor.insertSpaces": false,
     "editor.detectIndentation": false
