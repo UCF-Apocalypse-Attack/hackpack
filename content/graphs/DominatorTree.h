@@ -1,6 +1,6 @@
 /**
  * Author: Tyler Marks (based on UCF PT)
- * Description: Builds a dominator tree on a directed graph. Output tree is parent array
+ * Description: Builds a dominator tree on a directed graph. Output tree is a parent array with $src$ as the root.
  * Time: O(V+E)
  * Status: Untested
  */
