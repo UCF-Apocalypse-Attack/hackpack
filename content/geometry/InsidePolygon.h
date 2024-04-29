@@ -3,13 +3,12 @@
  * Date: 2019-04-26
  * License: CC0
  * Source: https://vlecomte.github.io/cp-geo.pdf
- * Description: Returns true if p lies within the polygon. If strict is true,
- * it returns false for points on the boundary. The algorithm uses
- * products in intermediate steps so watch out for overflow.
+ * Description: Returns 0 if the point is outside the polygon, 1 if
+ * it is strictly inside the polygon, and 2 if it is on the polygon.
  * Time: O(n)
  * Usage:
  * vector<P> v = {P{4,4}, P{1,2}, P{2,1}};
- * bool in = inPolygon(v, P{3, 3}, false);
+ * int in = inPolygon(v, P{3, 3});
  * Status: stress-tested and tested on kattis:pointinpolygon
  */
 #pragma once

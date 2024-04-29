@@ -1,8 +1,6 @@
 /**
- * Author: Stjepan Glavina, chilli
- * Date: 2019-05-05
- * License: Unlicense
- * Source: https://github.com/stjepang/snippets/blob/master/convex_hull.cpp
+ * Author: Tyler marks
+ * Date: 2024-04-29
  * Description:
 \\\begin{minipage}{75mm}
 Returns a vector of the points of the convex hull in counter-clockwise order.
