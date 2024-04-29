@@ -5,7 +5,9 @@
  * points on convex hull from a point. If the point is colinear 
  * to side(s) of the polygon, the point further away is 
  * returned. Requires ccw, $n \geq 3$, and the point be on or 
- * outside the polygon.
+ * outside the polygon. Can be used to check if a point is inside
+ * of a convex hull. Will return -1 if it is strictly inside. If
+ * the point is on the hull, the two adjacent points will be returned
  * Time: O(\log n)
  * Status: tested on ASC 40: A and SER 2016: D
  */
