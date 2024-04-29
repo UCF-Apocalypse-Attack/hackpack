@@ -16,16 +16,15 @@
 
 #include "Point.h"
 #include "OnSegment.h"
-#include "SegmentDistance.h"
 
-template<class P>
-bool inPolygon(vector<P> &p, P a, bool strict = true) {
-	int cnt = 0, n = sz(p);
-	rep(i,0,n) {
-		P q = p[(i + 1) % n];
-		if (onSegment(p[i], q, a)) return !strict;
-		//or: if (segDist(p[i], q, a) <= eps) return !strict;
-		cnt ^= ((a.y<p[i].y) - (a.y<q.y)) * a.cross(p[i], q) > 0;
-	}
-	return cnt;
+template<class P> int inPoly(vector<P> poly, P p) {
+    bool good = false; int n = sz(poly);
+    auto crosses = [](P s, P e, P p) { 
+        return ((e.y >= p.y) - (s.y >= p.y)) * p.cross(s, e) > 0; 
+    };
+    for(int i = 0; i < n; i++){
+        if(onSeg(poly[i], poly[(i+1)%n], p)) return 2;
+        good ^= crosses(poly[i], poly[(i+1)%n], p);
+    }
+    return good;
 }
