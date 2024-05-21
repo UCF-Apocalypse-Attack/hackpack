@@ -13,7 +13,7 @@
  */
 #pragma once
 #include "Point.h"
-#define cmp(i, j) p.cross(h[i], h[j == n ? 0 : j]) * (R ?: -1)
+#define cmp(i, j) p.cross(h[i], h[j == n ? 0 : j]) * (R ? 1 : -1)
 template<bool R, class P> int getTangent(vector<P>& h, P p) {
 	int n = sz(h), lo = 0, hi = n - 1, md;
 	if (cmp(0, 1) >= R && cmp(0, n - 1) >= !R) return 0;
