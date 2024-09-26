@@ -35,8 +35,7 @@ vector<P> hpIntersection(vector<HalfPlane> hps) {
 		dq[++r] = hps[i];
 		if(l < r && abs(dq[r].d.cross(dq[r-1].d)) < eps) {
 			if(dq[r].d.dot(dq[r-1].d) < 0) return {};
-			r--;
-			if(dq[r].contains(hps[i].s)) dq[r] = hps[i];
+			if(dq[--r].contains(hps[i].s)) dq[r] = hps[i];
 		}
 	}
 	while(l < r - 1 && !dq[l].contains(dq[r].inter(dq[r-1]))) r--;
