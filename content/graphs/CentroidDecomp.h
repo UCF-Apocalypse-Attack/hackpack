@@ -11,12 +11,12 @@
 #pragma once
 
 template <class F> struct centroid {
-	vector<vector<int>> adj;
+	vector<vi> adj;
 	F f;
-	vector<int> sub_sz;
-	centroid(const vector<vector<int>>& a_adj, F a_f)
-		: adj(a_adj), f(a_f), sub_sz(ssize(adj), -1) {
-		for (int i = 0; i < ssize(adj); i++)
+	vi sub_sz, par;
+	centroid(const vector<vi>& a_adj, F a_f)
+		: adj(a_adj), f(a_f), sub_sz(sz(adj), -1), par(sz(adj), -1) {
+		rep(i, 0, sz(adj))
 			if (sub_sz[i] == -1) dfs(i);
 	}
 	void calc_sz(int u, int p) {
@@ -25,7 +25,7 @@ template <class F> struct centroid {
 			if (v != p)
 				calc_sz(v, u), sub_sz[u] += sub_sz[v];
 	}
-	void dfs(int u) {
+	int dfs(int u) {
 		calc_sz(u, -1);
 		for (int p = -1, sz_root = sub_sz[u];;) {
 			auto big_ch = find_if(begin(adj[u]), end(adj[u]), [&](int v) {
@@ -38,7 +38,8 @@ template <class F> struct centroid {
 		for (int v : adj[u]) {
 			iter_swap(find(begin(adj[v]), end(adj[v]), u), rbegin(adj[v]));
 			adj[v].pop_back();
-			dfs(v);
+			par[dfs(v)] = u;
 		}
+		return u;
 	}
 };
